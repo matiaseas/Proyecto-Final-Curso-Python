@@ -6,5 +6,5 @@ acceder a los precios de la materia prima, las cantidades de la misma para difer
 la cantidad de cada receta a producir y el margen de ganancia y me devuelva el costo adecuado
 para un pedido dado.
 Para realizar esto es necesario poder crear, eliminar y ver las materia primas y recetas
-y poder acceder, aparte de esto, a las recetas y cuando duceda esto el programa me calcule
+y poder acceder, aparte de esto, a las recetas y cuando suceda esto el programa me calcule
 lo que necesito.
