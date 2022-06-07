@@ -22,10 +22,10 @@
 
 # alfajores_chocolate_chips_2: {200g de manteca 100g de azúcar 1 cdita de vainilla 2 huevos 20g de cacao amargo 180g de maicena 250g de harina 0000 140g de chips de chocolate dulce de leche repostero c/n}
 
-import pandas as pd
+import pandas
 
 # convert into dataframe
-df = pd.read_excel("Marplantenses.xlsx")
+df = pandas.read_excel("Marplatenses.xlsx")
 
 # convert into dictionary
 recipe_marplatenses = df.to_dict()
