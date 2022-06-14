@@ -1,10 +1,12 @@
 import pandas as pd
+import pint
 
-# convert into dataframe
-df = pd.read_excel("KiloAmaLitroNarUnidadVer.xlsx" , index_col=0)
+units = pint.UnitRegistry()
 
-# convert into dictionary
-raw_ing = df.to_dict()
+data_ing = pd.read_excel('MateriasPrimas.xlsx')
+dic_ing = data_ing.to_dict(orient='records')
 
-# show dictionary on console
-print(raw_ing)
+dic_ing = dic_ing.pop(0)
+
+for key in dic_ing:
+    print (units(dic_ing.get(key)))
