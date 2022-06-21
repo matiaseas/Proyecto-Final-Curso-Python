@@ -11,3 +11,4 @@ for key, value in dic_recipe.items():
 value = cost * 2.5
 print (f"El costo para producir el pedido es de {round(cost, 2)} pesos")
 print (f"El valor a cobrar al cliente es de {round(value, 2)} pesos")
+
